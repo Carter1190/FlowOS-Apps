@@ -1,4 +1,4 @@
-javascript:payload = prompt("enter the cmd you would like to execute")
+payload = prompt("enter the cmd you would like to execute")
 try {
   jsPayload = document.createElement('script'); 
   jsPayload.innerHTML= payload;
